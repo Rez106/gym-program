@@ -1,0 +1,237 @@
+{
+  "id": 1,
+  "firstName": "رضا",
+  "lastName": "درویشی",
+  "age": 21,
+  "weight": 63.7,
+  "height": 182,
+  "activities": [
+    {
+      "id": 1,
+      "activities": [
+        {
+          "id": 1,
+          "name": "باترفلای تک دست",
+          "sets": 3,
+          "counts": 8,
+          "single": false
+        },
+        {
+          "id": 2,
+          "name": "پرس سینه دمبل",
+          "sets": 4,
+          "counts": 6,
+          "single": false
+        },
+        {
+          "id": 3,
+          "name": "شنا سوئدی",
+          "sets": 3,
+          "counts": 10,
+          "single": false
+        },
+        {
+          "id": 4,
+          "name": "بالاسینه دمبل روی شیب 120",
+          "sets": [12, 10, 8],
+          "pyramidical": true,
+          "single": false
+        },
+        {
+          "id": 5,
+          "name": "زیرسینه دستگاه",
+          "sets": 3,
+          "counts": 6,
+          "single": false
+        },
+        {
+          "id": 6,
+          "name": "لت از جلو",
+          "sets": 3,
+          "counts": 8,
+          "single": false
+        },
+        {
+          "id": 7,
+          "name": "اچ دست جمع",
+          "sets": 4,
+          "counts": 6,
+          "single": false
+        },
+        {
+          "id": 8,
+          "name": "زیربغل کابل تک دست از بغل",
+          "sets": 3,
+          "counts": 10,
+          "single": false
+        }
+      ]
+    },
+    {
+      "id": 2,
+      "activities": [
+        {
+          "id": 1,
+          "name": "دوچرخه",
+          "minutes": 2,
+          "single": true
+        },
+        {
+          "id": 2,
+          "name": "خیاط داخل پا دستگاه",
+          "sets": 3,
+          "counts": 8
+        },
+        {
+          "id": 3,
+          "name": "اسکوات دمبل",
+          "sets": [10, 8, 6],
+          "pyramidical": true,
+          "is_super": true,
+          "super": {
+            "name": "اسکوات تک دمبل پا باز",
+            "sets": [12, 10, 8],
+            "pyramidical": true
+          }
+        },
+        {
+          "id": 4,
+          "name": "جلو بازو لاری",
+          "sets": 3,
+          "counts": 8
+        },
+        {
+          "id": 5,
+          "name": "جلو بازو دمبل تک تک روی شیب عکس",
+          "sets": 3,
+          "counts": 8
+        },
+        {
+          "id": 6,
+          "name": "جلو بازو سیم‌کش",
+          "sets": [12, 10, 8],
+          "pyramidical": true
+        },
+        {
+          "id": 7,
+          "name": "پلانک",
+          "sets": 4,
+          "counts": "30 ثانیه"
+        }
+      ]
+    },
+    {
+      "id": 3,
+      "activities": [
+        {
+          "id": 1,
+          "name": "چرخش خارجی کتف باکراس",
+          "sets": 3,
+          "counts": 8
+        },
+        {
+          "id": 2,
+          "name": "سرشانه دستگاه موازی",
+          "sets": 3,
+          "pyramidical": true
+        },
+        {
+          "id": 3,
+          "name": "پشت کتف هالتر خم",
+          "sets": 3,
+          "counts": 8
+        },
+        {
+          "id": 4,
+          "name": "لندماین نشسته",
+          "sets": 4,
+          "counts": 8,
+          "is_super": true,
+          "super": {
+            "name": "نشر از جانب",
+            "sets": 4,
+            "counts": 10
+          }
+        },
+        {
+          "id": 5,
+          "name": "نشر خم روی شیب",
+          "sets": 3,
+          "counts": 8
+        },
+        {
+          "id": 6,
+          "name": "کول سیم‌کش با طناب",
+          "sets": [12, 10, 8],
+          "pyramidical": true
+        },
+        {
+          "id": 7,
+          "name": "کول دمبل از طرفین",
+          "sets": [10, 8, 6],
+          "pyramidical": true
+        }
+      ]
+    },
+    {
+      "id": 4,
+      "activities": [
+        {
+          "id": 1,
+          "name": "دوچرخه",
+          "minutes": 2,
+
+          "single": true
+        },
+        {
+          "id": 2,
+          "name": "پشت ران دستگاه ایستاده",
+          "sets": 3,
+          "counts": 8
+        },
+        {
+          "id": 3,
+          "name": "پشت ران هالتر ایستاده",
+          "sets": [10, 8, 6],
+          "pyramidical": true
+        },
+        {
+          "id": 4,
+          "name": "هیپ تراست هالتر",
+          "sets": 3,
+          "counts": 12
+        },
+        {
+          "id": 5,
+          "name": "لوربک",
+          "sets": 3,
+          "counts": 15
+        },
+        {
+          "id": 6,
+          "name": "پشت بازو هالتر خوابیده",
+          "sets": 3,
+          "counts": 8
+        },
+        {
+          "id": 7,
+          "name": "پشت بازو تک دمبل جفت دست نشسته",
+          "sets": 3,
+          "counts": 10
+        },
+        {
+          "id": 8,
+          "name": "پشت بازو سیم‌کش",
+          "sets": [12, 10, 8],
+          "pyramidical": true
+        },
+        {
+          "id": 9,
+          "name": "شکم سیم‌کش",
+          "sets": 4,
+          "counts": 15
+        }
+      ]
+    }
+  ]
+}
