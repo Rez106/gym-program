@@ -1,7 +1,7 @@
 <template>
   <div
     class="min-w-full min-h-dvh bg-zinc-900 bg-opacity-50 fixed top-0 right-0 z-40 duration-300 sm:hidden"
-    :class="{ 'opacity-0 -right-[100vw]': !isShown, 'opacity-100': isShown }"
+    :class="{ 'opacity-0 -top-[250vh]': !isShown, 'opacity-100': isShown }"
   ></div>
   <nav class="min-h-dvh flex items-center">
     <div
@@ -23,11 +23,11 @@
       }"
     >
       <nuxt-link
+        to="/"
         v-if="isShown"
         class="rounded-full flex items-center justify-between gap-2 nav-btn cursor-pointer"
         @click="
           () => {
-            router.push('/');
             isShown = false;
           }
         "
@@ -39,13 +39,13 @@
         >
       </nuxt-link>
       <nuxt-link
+        :to="`/${item.id}`"
         v-if="isShown"
         class="rounded-full flex items-center justify-between gap-2 nav-btn cursor-pointer"
         v-for="item in menuItems"
         :key="item.id"
         @click="
           () => {
-            router.push(`/${item.id}`);
             isShown = false;
           }
         "

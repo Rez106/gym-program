@@ -5,7 +5,7 @@
     <h1
       class="text-white 2xl:text-xl bg-red-500 py-2 px-3 rounded-xl font-semibold"
     >
-      حرکت خود را از سمت راست انتخاب کنید
+      حرکات خود را از سمت راست انتخاب کنید
     </h1>
     <div class="text-center flex flex-col gap-1 text-white text-xl mt-5">
       <h1 class="font-semibold">
