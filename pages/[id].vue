@@ -84,7 +84,7 @@
 <script setup>
 const route = useRoute();
 
-const { data, error } = useAsyncData(
+const { data, error } = await useAsyncData(
   "program",
   async () => {
     try {
