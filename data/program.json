@@ -132,7 +132,7 @@
         {
           "id": 2,
           "name": "سرشانه دستگاه موازی",
-          "sets": 3,
+          "sets": [10, 8, 6],
           "pyramidical": true
         },
         {
@@ -180,7 +180,6 @@
           "id": 1,
           "name": "دوچرخه",
           "minutes": 2,
-
           "single": true
         },
         {
